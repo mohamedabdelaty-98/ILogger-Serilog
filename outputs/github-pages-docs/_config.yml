@@ -1,0 +1,8 @@
+title: Serilog Logging Guide
+description: Practical Serilog and structured logging documentation for .NET teams.
+remote_theme: just-the-docs/just-the-docs@v0.12.0
+plugins:
+  - jekyll-remote-theme
+color_scheme: light
+search_enabled: true
+nav_sort: case_insensitive
