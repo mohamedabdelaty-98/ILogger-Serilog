@@ -1,0 +1,17 @@
+{
+  "name": "serilog-dotnet-logging-guide",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "node scripts/prepare-seo.mjs && vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.0",
+    "mermaid": "12.3.0",
+    "vitepress": "1.6.4"
+  }
+}
+

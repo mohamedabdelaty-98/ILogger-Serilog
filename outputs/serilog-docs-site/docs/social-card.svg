@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#10172b"/><circle cx="1020" cy="90" r="260" fill="#405cf5" opacity=".25"/>
+  <text x="96" y="245" fill="#fff" font-family="Segoe UI, sans-serif" font-size="66" font-weight="700">Serilog &amp; .NET Logging</text>
+  <text x="100" y="330" fill="#c6d0f6" font-family="Segoe UI, sans-serif" font-size="32">Structured events. Reliable diagnostics. Production patterns.</text>
+  <rect x="100" y="390" width="245" height="5" rx="3" fill="#8294ff"/>
+</svg>

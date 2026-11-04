@@ -1,0 +1,491 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.19.0
+2 info using node@v24.21.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\mohamedabdelaty\Documents\Codex\2026-11-04\files-pasted-by-the-user-task\outputs\serilog-docs-site\.npmrc
+5 silly config load:file:C:\Users\mohamedabdelaty\.npmrc
+6 silly config load:file:C:\Users\mohamedabdelaty\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\mohamedabdelaty\Documents\Codex\2026-11-04\files-pasted-by-the-user-task\outputs\serilog-docs-site\.npm-cache\_logs\2026-11-04T01_29_27_251Z-
+10 verbose logfile C:\Users\mohamedabdelaty\Documents\Codex\2026-11-04\files-pasted-by-the-user-task\outputs\serilog-docs-site\.npm-cache\_logs\2026-11-04T01_29_27_251Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest @esbuild/aix-ppc64@0.21.5
+15 silly packumentCache full:https://registry.npmjs.org/@esbuild%2faix-ppc64 cache-miss
+16 http cache https://registry.npmjs.org/@esbuild%2faix-ppc64 20ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/@esbuild%2faix-ppc64 set size:67797 disposed:false
+18 silly fetch manifest @esbuild/android-arm@0.21.5
+19 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm cache-miss
+20 http cache https://registry.npmjs.org/@esbuild%2fandroid-arm 9ms (cache hit)
+21 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm set size:225217 disposed:false
+22 silly fetch manifest @esbuild/android-arm64@0.21.5
+23 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm64 cache-miss
+24 http cache https://registry.npmjs.org/@esbuild%2fandroid-arm64 9ms (cache hit)
+25 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm64 set size:204216 disposed:false
+26 silly fetch manifest @esbuild/android-x64@0.21.5
+27 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-x64 cache-miss
+28 http cache https://registry.npmjs.org/@esbuild%2fandroid-x64 9ms (cache hit)
+29 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-x64 set size:199017 disposed:false
+30 silly fetch manifest @esbuild/darwin-arm64@0.21.5
+31 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-arm64 cache-miss
+32 http cache https://registry.npmjs.org/@esbuild%2fdarwin-arm64 10ms (cache hit)
+33 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-arm64 set size:201471 disposed:false
+34 silly fetch manifest @esbuild/darwin-x64@0.21.5
+35 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-x64 cache-miss
+36 http cache https://registry.npmjs.org/@esbuild%2fdarwin-x64 9ms (cache hit)
+37 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-x64 set size:199670 disposed:false
+38 silly fetch manifest @esbuild/freebsd-arm64@0.21.5
+39 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 cache-miss
+40 http cache https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 9ms (cache hit)
+41 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 set size:202383 disposed:false
+42 silly fetch manifest @esbuild/freebsd-x64@0.21.5
+43 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-x64 cache-miss
+44 http cache https://registry.npmjs.org/@esbuild%2ffreebsd-x64 10ms (cache hit)
+45 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-x64 set size:200565 disposed:false
+46 silly fetch manifest @esbuild/linux-arm@0.21.5
+47 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm cache-miss
+48 http cache https://registry.npmjs.org/@esbuild%2flinux-arm 11ms (cache hit)
+49 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm set size:198596 disposed:false
+50 silly fetch manifest @esbuild/linux-arm64@0.21.5
+51 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm64 cache-miss
+52 http cache https://registry.npmjs.org/@esbuild%2flinux-arm64 12ms (cache hit)
+53 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm64 set size:200773 disposed:false
+54 silly fetch manifest @esbuild/linux-ia32@0.21.5
+55 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ia32 cache-miss
+56 http cache https://registry.npmjs.org/@esbuild%2flinux-ia32 11ms (cache hit)
+57 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ia32 set size:199625 disposed:false
+58 silly fetch manifest @esbuild/linux-loong64@0.21.5
+59 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-loong64 cache-miss
+60 http cache https://registry.npmjs.org/@esbuild%2flinux-loong64 20ms (cache hit)
+61 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-loong64 set size:255749 disposed:false
+62 silly fetch manifest @esbuild/linux-mips64el@0.21.5
+63 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-mips64el cache-miss
+64 http cache https://registry.npmjs.org/@esbuild%2flinux-mips64el 12ms (cache hit)
+65 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-mips64el set size:204633 disposed:false
+66 silly fetch manifest @esbuild/linux-ppc64@0.21.5
+67 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ppc64 cache-miss
+68 http cache https://registry.npmjs.org/@esbuild%2flinux-ppc64 11ms (cache hit)
+69 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ppc64 set size:202845 disposed:false
+70 silly fetch manifest @esbuild/linux-riscv64@0.21.5
+71 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-riscv64 cache-miss
+72 http cache https://registry.npmjs.org/@esbuild%2flinux-riscv64 10ms (cache hit)
+73 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-riscv64 set size:202512 disposed:false
+74 silly fetch manifest @esbuild/linux-s390x@0.21.5
+75 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-s390x cache-miss
+76 http cache https://registry.npmjs.org/@esbuild%2flinux-s390x 9ms (cache hit)
+77 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-s390x set size:202310 disposed:false
+78 silly fetch manifest @esbuild/linux-x64@0.21.5
+79 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-x64 cache-miss
+80 http cache https://registry.npmjs.org/@esbuild%2flinux-x64 10ms (cache hit)
+81 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-x64 set size:198942 disposed:false
+82 silly fetch manifest @esbuild/netbsd-x64@0.21.5
+83 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-x64 cache-miss
+84 http cache https://registry.npmjs.org/@esbuild%2fnetbsd-x64 10ms (cache hit)
+85 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-x64 set size:197314 disposed:false
+86 silly fetch manifest @esbuild/openbsd-x64@0.21.5
+87 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-x64 cache-miss
+88 http cache https://registry.npmjs.org/@esbuild%2fopenbsd-x64 10ms (cache hit)
+89 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-x64 set size:200576 disposed:false
+90 silly fetch manifest @esbuild/sunos-x64@0.21.5
+91 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fsunos-x64 cache-miss
+92 http cache https://registry.npmjs.org/@esbuild%2fsunos-x64 10ms (cache hit)
+93 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fsunos-x64 set size:199187 disposed:false
+94 silly fetch manifest @esbuild/win32-arm64@0.21.5
+95 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-arm64 cache-miss
+96 http cache https://registry.npmjs.org/@esbuild%2fwin32-arm64 11ms (cache hit)
+97 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-arm64 set size:201005 disposed:false
+98 silly fetch manifest @esbuild/win32-ia32@0.21.5
+99 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-ia32 cache-miss
+100 http cache https://registry.npmjs.org/@esbuild%2fwin32-ia32 11ms (cache hit)
+101 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-ia32 set size:199854 disposed:false
+102 silly placeDep ROOT @esbuild/aix-ppc64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+103 silly placeDep ROOT @esbuild/android-arm@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+104 silly placeDep ROOT @esbuild/android-arm64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+105 silly placeDep ROOT @esbuild/android-x64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+106 silly placeDep ROOT @esbuild/darwin-arm64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+107 silly placeDep ROOT @esbuild/darwin-x64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+108 silly placeDep ROOT @esbuild/freebsd-arm64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+109 silly placeDep ROOT @esbuild/freebsd-x64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+110 silly placeDep ROOT @esbuild/linux-arm@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+111 silly placeDep ROOT @esbuild/linux-arm64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+112 silly placeDep ROOT @esbuild/linux-ia32@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+113 silly placeDep ROOT @esbuild/linux-loong64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+114 silly placeDep ROOT @esbuild/linux-mips64el@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+115 silly placeDep ROOT @esbuild/linux-ppc64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+116 silly placeDep ROOT @esbuild/linux-riscv64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+117 silly placeDep ROOT @esbuild/linux-s390x@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+118 silly placeDep ROOT @esbuild/linux-x64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+119 silly placeDep ROOT @esbuild/netbsd-x64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+120 silly placeDep ROOT @esbuild/openbsd-x64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+121 silly placeDep ROOT @esbuild/sunos-x64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+122 silly placeDep ROOT @esbuild/win32-arm64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+123 silly placeDep ROOT @esbuild/win32-ia32@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+124 silly fetch manifest es-toolkit@^1.45.1
+125 silly packumentCache full:https://registry.npmjs.org/es-toolkit cache-miss
+126 http cache https://registry.npmjs.org/es-toolkit 56ms (cache hit)
+127 silly packumentCache full:https://registry.npmjs.org/es-toolkit set size:13821090 disposed:false
+128 silly placeDep node_modules/mermaid es-toolkit@1.53.1 OK for: mermaid@12.3.0 want: ^1.45.1
+129 silly fetch manifest @napi-rs/lzma-linux-x64-gnu@1.5.1
+130 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2flzma-linux-x64-gnu cache-miss
+131 http cache https://registry.npmjs.org/@napi-rs%2flzma-linux-x64-gnu 10ms (cache hit)
+132 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2flzma-linux-x64-gnu set size:35732 disposed:false
+133 silly fetch manifest fsevents@~2.3.2
+134 silly packumentCache full:https://registry.npmjs.org/fsevents cache-miss
+135 http cache https://registry.npmjs.org/fsevents 9ms (cache hit)
+136 silly packumentCache full:https://registry.npmjs.org/fsevents set size:182472 disposed:false
+137 silly fetch manifest @rollup/rollup-darwin-arm64@4.67.4
+138 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-arm64 cache-miss
+139 http cache https://registry.npmjs.org/@rollup%2frollup-darwin-arm64 12ms (cache hit)
+140 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-arm64 set size:415766 disposed:false
+141 silly fetch manifest @rollup/rollup-android-arm64@4.67.4
+142 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm64 cache-miss
+143 http cache https://registry.npmjs.org/@rollup%2frollup-android-arm64 10ms (cache hit)
+144 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm64 set size:417579 disposed:false
+145 silly fetch manifest @rollup/rollup-win32-arm64-msvc@4.67.4
+146 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc cache-miss
+147 http cache https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc 13ms (cache hit)
+148 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc set size:421715 disposed:false
+149 silly fetch manifest @rollup/rollup-freebsd-arm64@4.67.4
+150 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-arm64 cache-miss
+151 http cache https://registry.npmjs.org/@rollup%2frollup-freebsd-arm64 9ms (cache hit)
+152 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-arm64 set size:265777 disposed:false
+153 silly fetch manifest @rollup/rollup-linux-arm64-gnu@4.67.4
+154 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu cache-miss
+155 http cache https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu 10ms (cache hit)
+156 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu set size:422290 disposed:false
+157 silly fetch manifest @rollup/rollup-linux-arm64-musl@4.67.4
+158 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl cache-miss
+159 http cache https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl 11ms (cache hit)
+160 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl set size:377901 disposed:false
+161 silly fetch manifest @rollup/rollup-android-arm-eabi@4.67.4
+162 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi cache-miss
+163 http cache https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi 11ms (cache hit)
+164 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi set size:419668 disposed:false
+165 silly fetch manifest @rollup/rollup-linux-arm-gnueabihf@4.67.4
+166 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf cache-miss
+167 http cache https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf 9ms (cache hit)
+168 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf set size:426768 disposed:false
+169 silly fetch manifest @rollup/rollup-linux-arm-musleabihf@4.67.4
+170 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-musleabihf cache-miss
+171 http cache https://registry.npmjs.org/@rollup%2frollup-linux-arm-musleabihf 9ms (cache hit)
+172 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-musleabihf set size:321172 disposed:false
+173 silly fetch manifest @rollup/rollup-win32-ia32-msvc@4.67.4
+174 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc cache-miss
+175 http cache https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc 11ms (cache hit)
+176 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc set size:417881 disposed:false
+177 silly fetch manifest @rollup/rollup-linux-loong64-gnu@4.67.4
+178 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-gnu cache-miss
+179 http cache https://registry.npmjs.org/@rollup%2frollup-linux-loong64-gnu 10ms (cache hit)
+180 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-gnu set size:147346 disposed:false
+181 silly fetch manifest @rollup/rollup-linux-loong64-musl@4.67.4
+182 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-musl cache-miss
+183 http cache https://registry.npmjs.org/@rollup%2frollup-linux-loong64-musl 10ms (cache hit)
+184 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-musl set size:109590 disposed:false
+185 silly fetch manifest @rollup/rollup-linux-riscv64-gnu@4.67.4
+186 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu cache-miss
+187 http cache https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu 10ms (cache hit)
+188 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu set size:349038 disposed:false
+189 silly fetch manifest @rollup/rollup-linux-riscv64-musl@4.67.4
+190 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-musl cache-miss
+191 http cache https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-musl 9ms (cache hit)
+192 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-musl set size:195259 disposed:false
+193 silly fetch manifest @rollup/rollup-linux-ppc64-gnu@4.67.4
+194 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-gnu cache-miss
+195 http cache https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-gnu 9ms (cache hit)
+196 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-gnu set size:166965 disposed:false
+197 silly fetch manifest @rollup/rollup-linux-ppc64-musl@4.67.4
+198 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-musl cache-miss
+199 http cache https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-musl 11ms (cache hit)
+200 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-musl set size:108721 disposed:false
+201 silly fetch manifest @rollup/rollup-linux-s390x-gnu@4.67.4
+202 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-s390x-gnu cache-miss
+203 http cache https://registry.npmjs.org/@rollup%2frollup-linux-s390x-gnu 12ms (cache hit)
+204 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-s390x-gnu set size:322142 disposed:false
+205 silly fetch manifest @rollup/rollup-darwin-x64@4.67.4
+206 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-x64 cache-miss
+207 http cache https://registry.npmjs.org/@rollup%2frollup-darwin-x64 11ms (cache hit)
+208 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-x64 set size:408342 disposed:false
+209 silly fetch manifest @rollup/rollup-android-x64@4.67.4
+210 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-x64 cache-miss
+211 http cache https://registry.npmjs.org/@rollup%2frollup-android-x64 10ms (cache hit)
+212 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-x64 set size:11536 disposed:false
+213 silly fetch manifest @rollup/rollup-freebsd-x64@4.67.4
+214 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-x64 cache-miss
+215 http cache https://registry.npmjs.org/@rollup%2frollup-freebsd-x64 11ms (cache hit)
+216 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-x64 set size:257213 disposed:false
+217 silly fetch manifest @rollup/rollup-linux-x64-gnu@4.67.4
+218 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-gnu cache-miss
+219 http cache https://registry.npmjs.org/@rollup%2frollup-linux-x64-gnu 13ms (cache hit)
+220 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-gnu set size:412733 disposed:false
+221 silly fetch manifest @rollup/rollup-linux-x64-musl@4.67.4
+222 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl cache-miss
+223 http cache https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl 12ms (cache hit)
+224 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl set size:412296 disposed:false
+225 silly fetch manifest @rollup/rollup-openbsd-x64@4.67.4
+226 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openbsd-x64 cache-miss
+227 http cache https://registry.npmjs.org/@rollup%2frollup-openbsd-x64 10ms (cache hit)
+228 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openbsd-x64 set size:101950 disposed:false
+229 silly fetch manifest @rollup/rollup-openharmony-arm64@4.67.4
+230 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openharmony-arm64 cache-miss
+231 http cache https://registry.npmjs.org/@rollup%2frollup-openharmony-arm64 11ms (cache hit)
+232 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openharmony-arm64 set size:143611 disposed:false
+233 silly placeDep ROOT @napi-rs/lzma-linux-x64-gnu@1.5.1 OK for: rollup@4.67.4 want: 1.5.1
+234 silly placeDep ROOT @rollup/rollup-android-arm-eabi@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+235 silly placeDep ROOT @rollup/rollup-android-arm64@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+236 silly placeDep ROOT @rollup/rollup-android-x64@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+237 silly placeDep ROOT @rollup/rollup-darwin-arm64@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+238 silly placeDep ROOT @rollup/rollup-darwin-x64@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+239 silly placeDep ROOT @rollup/rollup-freebsd-arm64@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+240 silly placeDep ROOT @rollup/rollup-freebsd-x64@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+241 silly placeDep ROOT @rollup/rollup-linux-arm-gnueabihf@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+242 silly placeDep ROOT @rollup/rollup-linux-arm-musleabihf@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+243 silly placeDep ROOT @rollup/rollup-linux-arm64-gnu@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+244 silly placeDep ROOT @rollup/rollup-linux-arm64-musl@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+245 silly placeDep ROOT @rollup/rollup-linux-loong64-gnu@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+246 silly placeDep ROOT @rollup/rollup-linux-loong64-musl@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+247 silly placeDep ROOT @rollup/rollup-linux-ppc64-gnu@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+248 silly placeDep ROOT @rollup/rollup-linux-ppc64-musl@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+249 silly placeDep ROOT @rollup/rollup-linux-riscv64-gnu@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+250 silly placeDep ROOT @rollup/rollup-linux-riscv64-musl@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+251 silly placeDep ROOT @rollup/rollup-linux-s390x-gnu@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+252 silly placeDep ROOT @rollup/rollup-linux-x64-gnu@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+253 silly placeDep ROOT @rollup/rollup-linux-x64-musl@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+254 silly placeDep ROOT @rollup/rollup-openbsd-x64@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+255 silly placeDep ROOT @rollup/rollup-openharmony-arm64@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+256 silly placeDep ROOT @rollup/rollup-win32-arm64-msvc@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+257 silly placeDep ROOT @rollup/rollup-win32-ia32-msvc@4.67.4 OK for: rollup@4.67.4 want: 4.67.4
+258 silly placeDep ROOT fsevents@2.3.3 OK for: rollup@4.67.4 want: ~2.3.2
+259 silly reify mark retired [
+259 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\es-toolkit'
+259 silly reify ]
+260 silly reify mark retired [
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\d3-dsv',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\csv2json',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\csv2json.cmd',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\csv2json.ps1',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\csv2tsv',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\csv2tsv.cmd',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\csv2tsv.ps1',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\dsv2dsv',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\dsv2dsv.cmd',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\dsv2dsv.ps1',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\dsv2json',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\dsv2json.cmd',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\dsv2json.ps1',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\json2csv',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\json2csv.cmd',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\json2csv.ps1',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\json2dsv',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\json2dsv.cmd',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\json2dsv.ps1',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\json2tsv',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\json2tsv.cmd',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\json2tsv.ps1',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\tsv2csv',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\tsv2csv.cmd',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\tsv2csv.ps1',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\tsv2json',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\tsv2json.cmd',
+260 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\tsv2json.ps1'
+260 silly reify ]
+261 silly reify mark retired [
+261 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\esbuild',
+261 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\esbuild',
+261 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\esbuild.cmd',
+261 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\esbuild.ps1'
+261 silly reify ]
+262 silly reify mark retired [
+262 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\katex',
+262 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\katex',
+262 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\katex.cmd',
+262 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\katex.ps1'
+262 silly reify ]
+263 silly reify mark retired [
+263 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\marked',
+263 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\marked',
+263 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\marked.cmd',
+263 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\marked.ps1'
+263 silly reify ]
+264 silly reify mark retired [
+264 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\nanoid',
+264 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\nanoid',
+264 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\nanoid.cmd',
+264 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\nanoid.ps1'
+264 silly reify ]
+265 silly reify mark retired [
+265 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\rollup',
+265 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\rollup',
+265 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\rollup.cmd',
+265 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\rollup.ps1'
+265 silly reify ]
+266 silly reify mark retired [
+266 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\vitepress',
+266 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\vitepress',
+266 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\vitepress.cmd',
+266 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\vitepress.ps1'
+266 silly reify ]
+267 silly reify mark retired [
+267 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\vite',
+267 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\vite',
+267 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\vite.cmd',
+267 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\vite.ps1'
+267 silly reify ]
+268 silly reify mark retired [
+268 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\@babel\\parser',
+268 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\parser',
+268 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\parser.cmd',
+268 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\parser.ps1'
+268 silly reify ]
+269 silly reify moves {
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\es-toolkit': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.es-toolkit-meNofJR3',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\d3-dsv': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.d3-dsv-7uKcUavj',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\csv2json': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.csv2json-RDiF9bnv',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\csv2json.cmd': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.csv2json.cmd-Xki2PLnk',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\csv2json.ps1': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.csv2json.ps1-BVDF72zz',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\csv2tsv': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.csv2tsv-rlTicX3l',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\csv2tsv.cmd': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.csv2tsv.cmd-igwVSG6j',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\csv2tsv.ps1': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.csv2tsv.ps1-tN94OAZL',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\dsv2dsv': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.dsv2dsv-KO5bAxYg',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\dsv2dsv.cmd': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.dsv2dsv.cmd-wLL0rMMj',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\dsv2dsv.ps1': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.dsv2dsv.ps1-NmxS6EwW',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\dsv2json': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.dsv2json-4A3d7B08',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\dsv2json.cmd': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.dsv2json.cmd-yfTp6Wk8',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\dsv2json.ps1': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.dsv2json.ps1-X3YK2AFY',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\json2csv': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.json2csv-Gd1enZUc',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\json2csv.cmd': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.json2csv.cmd-sehhcMTc',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\json2csv.ps1': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.json2csv.ps1-zf1smOTZ',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\json2dsv': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.json2dsv-UviCnQvp',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\json2dsv.cmd': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.json2dsv.cmd-4Pz5EFz3',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\json2dsv.ps1': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.json2dsv.ps1-wIBZt9DM',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\json2tsv': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.json2tsv-uXP7Goe4',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\json2tsv.cmd': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.json2tsv.cmd-9piuPqjE',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\json2tsv.ps1': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.json2tsv.ps1-Fc0Uz2WS',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\tsv2csv': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.tsv2csv-8ZAu9LpT',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\tsv2csv.cmd': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.tsv2csv.cmd-rWhmCYyA',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\tsv2csv.ps1': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.tsv2csv.ps1-iNGrsuFB',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\tsv2json': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.tsv2json-lGHUvuLy',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\tsv2json.cmd': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.tsv2json.cmd-FWUuItjE',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\tsv2json.ps1': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.tsv2json.ps1-93wgT755',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\esbuild': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.esbuild-6aAC7kDB',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\esbuild': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.esbuild-6ZV0iLx5',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\esbuild.cmd': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.esbuild.cmd-1PjaRppy',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\esbuild.ps1': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.esbuild.ps1-31tJWZ00',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\katex': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.katex-7kIX3635',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\katex': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.katex-Bqcg6BoP',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\katex.cmd': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.katex.cmd-7cxj2y3P',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\katex.ps1': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.katex.ps1-CPUHNMJB',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\marked': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.marked-nbElgsmn',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\marked': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.marked-EevsL653',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\marked.cmd': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.marked.cmd-XhUJDnqJ',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\marked.ps1': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.marked.ps1-qf9XSjPz',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\nanoid': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.nanoid-yRRrN1ex',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\nanoid': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.nanoid-m3yxqlSE',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\nanoid.cmd': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.nanoid.cmd-0HO5rxHr',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\nanoid.ps1': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.nanoid.ps1-qPq9GFgi',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\rollup': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.rollup-j8TFF5Xi',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\rollup': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.rollup-kLKzwyfr',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\rollup.cmd': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.rollup.cmd-LkyuHCKL',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\rollup.ps1': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.rollup.ps1-UUI5hKaL',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\vitepress': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.vitepress-QGnz5174',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\vitepress': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.vitepress-a4jswp1x',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\vitepress.cmd': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.vitepress.cmd-XrEc9tVZ',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\vitepress.ps1': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.vitepress.ps1-GBe6nQu4',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\vite': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.vite-jLTlHPyz',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\vite': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.vite-2eYKLN7X',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\vite.cmd': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.vite.cmd-HekL5UWL',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\vite.ps1': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.vite.ps1-SPJNE6xY',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\@babel\\parser': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\@babel\\.parser-jFQ6Jj0r',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\parser': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.parser-qdHhtjQK',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\parser.cmd': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.parser.cmd-1VQKvhHh',
+269 silly reify   'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\parser.ps1': 'C:\\Users\\mohamedabdelaty\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-task\\outputs\\serilog-docs-site\\node_modules\\.bin\\.parser.ps1-G1JKiksF'
+269 silly reify }
+270 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fparser cache-miss
+271 silly packumentCache corgi:https://registry.npmjs.org/vite cache-miss
+272 silly packumentCache corgi:https://registry.npmjs.org/vitepress cache-miss
+273 silly packumentCache corgi:https://registry.npmjs.org/rollup cache-miss
+274 silly packumentCache corgi:https://registry.npmjs.org/marked cache-miss
+275 http cache es-toolkit@https://registry.npmjs.org/es-toolkit/-/es-toolkit-1.53.1.tgz 1ms (cache hit)
+276 silly packumentCache corgi:https://registry.npmjs.org/nanoid cache-miss
+277 silly packumentCache corgi:https://registry.npmjs.org/katex cache-miss
+278 silly packumentCache corgi:https://registry.npmjs.org/d3-dsv cache-miss
+279 silly packumentCache corgi:https://registry.npmjs.org/esbuild cache-miss
+280 silly tarball no local data for es-toolkit@https://registry.npmjs.org/es-toolkit/-/es-toolkit-1.53.1.tgz. Extracting by manifest.
+281 http cache https://registry.npmjs.org/vite 80ms (cache hit)
+282 silly packumentCache corgi:https://registry.npmjs.org/vite set size:2339552 disposed:false
+283 http cache https://registry.npmjs.org/vitepress 103ms (cache hit)
+284 silly packumentCache corgi:https://registry.npmjs.org/vitepress set size:848288 disposed:false
+285 http cache https://registry.npmjs.org/esbuild 121ms (cache hit)
+286 silly packumentCache corgi:https://registry.npmjs.org/esbuild set size:889133 disposed:false
+287 http cache https://registry.npmjs.org/esbuild/-/esbuild-0.21.5.tgz 89ms (cache hit)
+288 http cache https://registry.npmjs.org/vite/-/vite-5.4.21.tgz 128ms (cache hit)
+289 http cache https://registry.npmjs.org/vitepress/-/vitepress-1.6.4.tgz 116ms (cache hit)
+290 http fetch GET 200 https://registry.npmjs.org/katex 385ms (cache miss)
+291 silly packumentCache corgi:https://registry.npmjs.org/katex set size:undefined disposed:false
+292 http cache https://registry.npmjs.org/katex/-/katex-0.18.10.tgz 57ms (cache hit)
+293 http fetch GET 200 https://registry.npmjs.org/nanoid 460ms (cache miss)
+294 silly packumentCache corgi:https://registry.npmjs.org/nanoid set size:undefined disposed:false
+295 http cache https://registry.npmjs.org/nanoid/-/nanoid-3.3.20.tgz 31ms (cache hit)
+296 http fetch GET 200 https://registry.npmjs.org/marked 540ms (cache miss)
+297 silly packumentCache corgi:https://registry.npmjs.org/marked set size:undefined disposed:false
+298 http fetch GET 200 https://registry.npmjs.org/d3-dsv 548ms (cache miss)
+299 silly packumentCache corgi:https://registry.npmjs.org/d3-dsv set size:undefined disposed:false
+300 http fetch GET 200 https://registry.npmjs.org/@babel%2fparser 558ms (cache miss)
+301 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fparser set size:undefined disposed:false
+302 http cache https://registry.npmjs.org/marked/-/marked-16.4.2.tgz 49ms (cache hit)
+303 http cache https://registry.npmjs.org/d3-dsv/-/d3-dsv-3.0.2.tgz 46ms (cache hit)
+304 http fetch GET 200 https://registry.npmjs.org/@babel/parser/-/parser-7.29.12.tgz 169ms (cache revalidated)
+305 http fetch GET 200 https://registry.npmjs.org/rollup 787ms (cache miss)
+306 silly packumentCache corgi:https://registry.npmjs.org/rollup set size:undefined disposed:false
+307 http cache https://registry.npmjs.org/rollup/-/rollup-4.67.4.tgz 49ms (cache hit)
+308 http fetch GET 200 https://registry.npmjs.org/es-toolkit/-/es-toolkit-1.53.1.tgz 18427ms (cache miss)
+309 info run esbuild@0.21.5 postinstall node_modules/esbuild node install.js
+310 info run esbuild@0.21.5 postinstall { code: 'EPERM', signal: undefined }
+311 verbose stack Error: spawn EPERM
+311 verbose stack     at ChildProcess.spawn (node:internal/child_process:458:11)
+311 verbose stack     at spawn (node:child_process:813:9)
+311 verbose stack     at promiseSpawn (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:39:16)
+311 verbose stack     at spawnWithShell (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:124:10)
+311 verbose stack     at promiseSpawn (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:12:12)
+311 verbose stack     at runScriptPkg (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script-pkg.js:79:13)
+311 verbose stack     at runScript (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script.js:9:12)
+311 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\rebuild.js:348:17
+311 verbose stack     at run (C:\Program Files\nodejs\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:67:22)
+311 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:84:9
+312 error code EPERM
+313 error syscall spawn
+314 error errno -4048
+315 error Error: spawn EPERM
+315 error     at ChildProcess.spawn (node:internal/child_process:458:11)
+315 error     at spawn (node:child_process:813:9)
+315 error     at promiseSpawn (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:39:16)
+315 error     at spawnWithShell (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:124:10)
+315 error     at promiseSpawn (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:12:12)
+315 error     at runScriptPkg (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script-pkg.js:79:13)
+315 error     at runScript (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script.js:9:12)
+315 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\rebuild.js:348:17
+315 error     at run (C:\Program Files\nodejs\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:67:22)
+315 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:84:9 {
+315 error   errno: -4048,
+315 error   code: 'EPERM',
+315 error   syscall: 'spawn'
+315 error }
+316 error
+316 error The operation was rejected by your operating system.
+316 error It's possible that the file was already in use (by a text editor or antivirus), or that you lack permissions to access it.
+316 error
+316 error If you believe this might be a permissions issue, please double-check the permissions of the file and its containing directories, or try running the command again as root/Administrator.
+317 silly unfinished npm timer reify 1793755769979
+318 silly unfinished npm timer reify:build 1793755789811
+319 silly unfinished npm timer build 1793755789811
+320 silly unfinished npm timer build:deps 1793755789811
+321 silly unfinished npm timer build:run:postinstall 1793755789819
+322 silly unfinished npm timer build:run:postinstall:node_modules/esbuild 1793755789819
+323 verbose cwd C:\Users\mohamedabdelaty\Documents\Codex\2026-11-04\files-pasted-by-the-user-task\outputs\serilog-docs-site
+324 verbose os Windows_NT 10.0.19045
+325 verbose node v24.21.0
+326 verbose npm  v11.19.0
+327 verbose exit -4048
+328 verbose code -4048
+329 error A complete log of this run can be found in: C:\Users\mohamedabdelaty\Documents\Codex\2026-11-04\files-pasted-by-the-user-task\outputs\serilog-docs-site\.npm-cache\_logs\2026-11-04T01_29_27_251Z-debug-0.log
